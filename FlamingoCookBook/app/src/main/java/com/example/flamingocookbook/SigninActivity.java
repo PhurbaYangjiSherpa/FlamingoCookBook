@@ -27,8 +27,8 @@ public class SigninActivity extends AppCompatActivity {
         // Initialize Firebase Auth
         mAuth = FirebaseAuth.getInstance();
 
-        signup_fullname = findViewById(R.id.sigup_fullname_id);
-        signup_lastname = findViewById(R.id.sigup_lastname_id);
+        signup_fullname = findViewById(R.id.signup_fullname_id);
+        signup_lastname = findViewById(R.id.signup_lastname_id);
         signup_email = findViewById(R.id.sigup_email_id);
         signup_password = findViewById(R.id.signup_password_id);
         signup_confirm_password = findViewById(R.id.signup_confirm_password_id);

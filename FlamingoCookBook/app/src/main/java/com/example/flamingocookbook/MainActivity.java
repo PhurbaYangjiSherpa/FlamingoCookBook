@@ -69,8 +69,5 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public void Signin(View view) {
-        startActivity(new Intent(this,SigninActivity.class));
 
-    }
 }

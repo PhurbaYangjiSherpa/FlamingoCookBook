@@ -1,15 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorBackground"
     tools:context=".HomeActivity">
 
     <TextView
-        android:layout_width="300dp"
-        android:text="Login successful"
-        android:textSize="30sp"
-        android:layout_height="200dp"/>
+        android:id="@+id/flamingo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40sp"
+        android:text="Flamingo CookBook"
+        android:fontFamily="@font/simonetta_black"
+        android:textColor="#b01730"
+        android:textSize="25sp"/>
+    
+    <ListView
+        android:id="@+id/recipe_list"
+        android:layout_width="wrap_content"
+        android:layout_height="280sp"
+        android:layout_below="@+id/flamingo"
+        android:layout_margin="5sp"/>
 
-</LinearLayout>
+    <Button
+        android:id="@+id/upload_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/recipe_list"
+        android:layout_marginTop="50sp"
+        android:background="@color/colorBackground1"
+        android:onClick="upload"
+        android:text="Upload Recipe"
+        android:textColor="@color/colorText" />
+
+    <Button
+        android:id="@+id/download_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/recipe_list"
+        android:layout_marginTop="50sp"
+        android:background="@color/colorBackground1"
+        android:onClick="download"
+        android:text="Download Recipe"
+        android:textColor="@color/colorText" />
+
+
+</RelativeLayout>
