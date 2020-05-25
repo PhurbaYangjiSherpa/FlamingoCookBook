@@ -24,7 +24,11 @@
   </component>
   <component name="ProjectId" id="1cA3k8E4F07T77F6O5ksKeg7POk" />
   <component name="PropertiesComponent">
+    <property name="BundleExportedModule" value="FlamingoCookBook" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
